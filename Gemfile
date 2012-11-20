@@ -7,6 +7,7 @@ gem 'rails', '3.2.8'
 
 gem 'sqlite3', :group => :development
 gem 'pg'
+gem 'gravatar_image_tag'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -35,6 +36,7 @@ gem 'autotest-growl'
 gem 'rspec-rails', '~>2.12.0'
 gem 'webrat'
 gem 'spork'
+gem 'factory_girl_rails', '1.0'
 end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
